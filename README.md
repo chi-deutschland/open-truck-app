@@ -20,7 +20,7 @@ ONE Record based Open Source Trucking app
 #
 ## Screenshots
 
-- Overview screen with Truck details, live location tracking with marked locations on map for source and destination
+- Overview screen with Truck details, live location tracking with marked locations for source and destination
  ![Screenshot](/images/overview.jpeg)
  
 - For trucker to start loading process
