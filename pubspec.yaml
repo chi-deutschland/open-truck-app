@@ -1,0 +1,76 @@
+name: trucker_app
+description: A flutter project demoing the trucker app
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# The following section is specific to Flutter.
+  flutter:
+    sdk: flutter
+  #image_picker: ^0.6.0
+  cupertino_icons: ^1.0.2
+  #ml kit
+  google_ml_kit: ^0.7.1
+  #camera plugin
+  camera: ^0.9.2+2
+  #Database plugin
+  sqflite: ^2.0.0+3
+  #for saving camera image
+  path: ^1.8.0
+  path_provider: ^2.0.1
+  #checking connectivity
+  connectivity: ^3.0.4
+  #provider for state management
+  provider: ^5.0.0
+  #for date and time
+  intl: ^0.17.0
+  vibration: ^1.7.4-nullsafety.0
+  #for maps
+  google_maps_flutter: ^2.0.6
+  #for location
+  location: ^4.3.0
+  #mqtt
+  mqtt_client: ^9.6.0
+  #dio for networking
+  dio: ^4.0.0
+  #for drawing on maps
+  flutter_polyline_points: ^1.0.0
+  #animated button
+  animated_button: ^0.2.0
+  #for device info
+  device_info: ^2.0.2
+  #for driver license
+  awesome_card: ^1.1.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: SFPro-Regular
+      fonts:
+        - asset: fonts/SFProDisplay-Regular.ttf
+    - family: SFPro-Bold
+      fonts:
+        - asset: fonts/SFProDisplay-Bold.ttf
