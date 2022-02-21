@@ -54,6 +54,8 @@ samples, guidance on mobile development, and a full API reference.
 Please dont forget to add the Google Maps API key in the  ...android/app/main/AndroidManifest.xml file and also the  ...lib/widgets/tour_details_card.dart file.
 More information can be found here [Getting started with Google Maps Platform](https://developers.google.com/maps/gmp-get-started)
 
+NB: The code was for a hackathon and written within a few hours, so might not have the best architecture!
+
 
 
 
